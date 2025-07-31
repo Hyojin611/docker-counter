@@ -32,6 +32,8 @@ public class CounterController {
     }
     
   
+
+    
     private String formatCounter(int value) {
         if (value > 0) {
             return "+" + value;
